@@ -13,7 +13,7 @@ Commençons par les faits. En observant le marché de l'occasion, les experts es
 Imaginons que j'achète une voiture neuve à 20 000 euros. 
 Au bout d'un an, elle ne perd pas 15 % du prix initial, mais 15 % de sa valeur actuelle. Ce mécanisme de baisse en pourcentage successif doit immédiatement nous faire penser à un outil mathématique bien précis : les suites.
 
-Partie 2 : Modélisation avec les suites et les exponentielles
+**Partie 2 : Modélisation avec les suites et les exponentielles**
 
 Pour modéliser cette situation, définissons une suite $(V_n)$ qui représente la valeur de la voiture après $n$ années. 
 Diminuer une valeur de 15 %, cela revient à la multiplier par $1 - \frac{15}{100}$, soit $0,85$.
@@ -47,7 +47,7 @@ $V(t) = 20 000 \times e^{-0,162t}$.
 
 Puisque $k$ est négatif, nous avons bien une fonction exponentielle décroissante.
 
-Partie 3 : Le temps de demie-vie
+**Partie 3 : Le temps de demie-vie**
 
 Maintenant que nous avons un modèle solide, exploitons-le. Il y a une question que tout acheteur se pose : *"Au bout de combien de temps ma voiture aura-t-elle perdu la moitié de sa valeur ?"*
 
@@ -74,7 +74,7 @@ On obtient donc $t = \frac{-\ln(2)}{-0,162}$, ce qui donne environ **4,27 année
 
 La conclusion est sans appel : tous les 4 ans et 3 mois environ, la voiture voit sa valeur divisée par 2 ! Au bout de 4 ans, notre voiture de 20 000 € n'en vaut plus que 10 000 €. Au bout de 8 ans et demi, elle n'en vaudra plus que 5 000 €. 
 
-Partie 4 : Les limites du modèle face à la réalité 
+**Partie 4 : Les limites du modèle face à la réalité **
 
 
 Mais ce modèle mathématique exponentiel, aussi élégant soit-il, correspond-il parfaitement à la réalité ? 
@@ -97,7 +97,7 @@ Grâce à cette modélisation probabiliste, je peux calculer deux choses fondame
 D'abord, la probabilité de revendre ma voiture à un prix intact, en calculant $P(Y = 0)$, c'est-à-dire la probabilité de n'avoir eu aucun accident.
 Mais surtout, je peux calculer **l'Espérance mathématique** de ma variable $X$, notée $E(X)$. Dans le contexte de mon sujet, cette espérance représente le prix de revente moyen espéré sur le marché, en prenant en compte le risque d'accident. C'est d'ailleurs exactement ce type de croisement entre fonctions et probabilités que les assureurs automobiles utilisent au quotidien pour fixer le prix de nos contrats !
 
-Conclusion
+**Conclusion**
 
 Pour conclure, répondre à la question *"Comment votre voiture perd-elle de la valeur ?"* nécessite de faire appel à plusieurs branches des mathématiques. Les suites et la fonction exponentielle nous offrent un cadre prédictif extrêmement puissant, capable de calculer un temps de demi-vie précis. Cependant, l'étude des limites et l'introduction des probabilités nous rappellent que les mathématiques appliquées modélisent le monde, mais doivent toujours s'adapter à la complexité de la réalité matérielle et économique.
 
