@@ -74,7 +74,8 @@ On obtient donc $t = \frac{-\ln(2)}{-0,162}$, ce qui donne environ **4,27 année
 
 La conclusion est sans appel : tous les 4 ans et 3 mois environ, la voiture voit sa valeur divisée par 2 ! Au bout de 4 ans, notre voiture de 20 000 € n'en vaut plus que 10 000 €. Au bout de 8 ans et demi, elle n'en vaudra plus que 5 000 €. 
 
-**Partie 4 : Les limites du modèle face à la réalité **
+
+** Partie 4 : Les limites du modèle face à la réalité **
 
 
 Mais ce modèle mathématique exponentiel, aussi élégant soit-il, correspond-il parfaitement à la réalité ? 
@@ -82,7 +83,7 @@ Mais ce modèle mathématique exponentiel, aussi élégant soit-il, correspond-i
 La première limite de ce modèle continu, c'est sa limite mathématique justement. Si l'on calcule la limite de $e^{-0,162t}$ quand $t$ tend vers plus l'infini, on trouve $0$. Selon notre équation, la valeur de la voiture finirait par s'annuler totalement. Pourtant, dans la réalité, même une voiture hors d'usage conserve une "valeur résiduelle", comme le prix de la ferraille. Notre modèle devrait donc plutôt tendre vers une asymptote horizontale strictement positive.
 
 Mais la plus grande limite de notre fonction, c'est qu'elle est déterministe. Elle suppose que la dépréciation est une certitude absolue. Or, la vie d'une voiture est intimement liée au hasard ! 
-C'est ici que les **probabilités** entrent en jeu pour rendre notre modèle beaucoup plus réaliste. La valeur de revente sur le marché de l'occasion dépend d'événements aléatoires : un accident, une rayure sur un parking, une panne moteur.
+C'est ici que les probabilités entrent en jeu pour rendre notre modèle beaucoup plus réaliste. La valeur de revente sur le marché de l'occasion dépend d'événements aléatoires : un accident, une rayure sur un parking, une panne moteur.
 
 On peut alors décider d'améliorer notre modèle en considérant la valeur de la voiture, non plus comme un nombre certain, mais comme une variable aléatoire que l'on va appeler $X$.
 
@@ -95,7 +96,7 @@ Son expression serait : $X = V(n) \times 0,9^Y$.
 
 Grâce à cette modélisation probabiliste, je peux calculer deux choses fondamentales :
 D'abord, la probabilité de revendre ma voiture à un prix intact, en calculant $P(Y = 0)$, c'est-à-dire la probabilité de n'avoir eu aucun accident.
-Mais surtout, je peux calculer **l'Espérance mathématique** de ma variable $X$, notée $E(X)$. Dans le contexte de mon sujet, cette espérance représente le prix de revente moyen espéré sur le marché, en prenant en compte le risque d'accident. C'est d'ailleurs exactement ce type de croisement entre fonctions et probabilités que les assureurs automobiles utilisent au quotidien pour fixer le prix de nos contrats !
+Mais surtout, je peux calculer l'Espérance mathématique de ma variable $X$, notée $E(X)$. Dans le contexte de mon sujet, cette espérance représente le prix de revente moyen espéré sur le marché, en prenant en compte le risque d'accident. C'est d'ailleurs exactement ce type de croisement entre fonctions et probabilités que les assureurs automobiles utilisent au quotidien pour fixer le prix de nos contrats !
 
 **Conclusion**
 
