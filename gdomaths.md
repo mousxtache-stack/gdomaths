@@ -75,7 +75,7 @@ On obtient donc $t = \frac{-\ln(2)}{-0,162}$, ce qui donne environ **4,27 année
 La conclusion est sans appel : tous les 4 ans et 3 mois environ, la voiture voit sa valeur divisée par 2 ! Au bout de 4 ans, notre voiture de 20 000 € n'en vaut plus que 10 000 €. Au bout de 8 ans et demi, elle n'en vaudra plus que 5 000 €. 
 
 
-** Partie 4 : Les limites du modèle face à la réalité **
+**Partie 4 : Les limites du modèle face à la réalité**
 
 
 Mais ce modèle mathématique exponentiel, aussi élégant soit-il, correspond-il parfaitement à la réalité ? 
