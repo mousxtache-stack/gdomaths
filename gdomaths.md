@@ -51,7 +51,7 @@ Puisque $k$ est négatif, nous avons bien une fonction exponentielle décroissan
 
 Maintenant que nous avons un modèle solide, exploitons-le. Il y a une question que tout acheteur se pose : *"Au bout de combien de temps ma voiture aura-t-elle perdu la moitié de sa valeur ?"*
 
-En physique nucléaire, le temps nécessaire pour que la moitié des noyaux radioactifs se désintègrent s'appelle le temps de demi-vie. En économie, c'est exactement le même principe. Alors calculons le temps de demi-vie, noté $T_{1/2}$, de notre voiture.
+En physique nucléaire, le temps nécessaire pour que la moitié des noyaux radioactifs se désintègrent s'appelle le temps de demi-vie. En mathématiques, c'est exactement le même principe. Alors calculons le temps de demi-vie, noté $T_{1/2}$, de notre voiture.
 
 Mathématiquement, on cherche l'instant $t$ tel que : 
 
