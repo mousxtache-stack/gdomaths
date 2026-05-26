@@ -21,7 +21,7 @@ On a donc la relation :
 
 $V_{n+1} = V_n \times 0,85$. 
 
-Nous sommes face à une **suite géométrique** de premier terme $V_0 = 20 000$ et de raison $q = 0,85$. 
+Nous sommes face à une suite géométrique de premier terme $V_0 = 20 000$ et de raison $q = 0,85$. 
 Grâce au cours, je peux exprimer la valeur du véhicule pour n'importe quelle année $n$ avec la formule explicite : 
 $V_n = 20 000 \times 0,85^n$.
 
@@ -70,7 +70,7 @@ $e^{-0,162t} = 0,5$.
 $-0,162t = \ln(0,5)$.
 
 Or, une propriété fondamentale du logarithme nous dit que $\ln(0,5)$ c'est $\ln(\frac{1}{2})$, soit $-\ln(2)$.
-On obtient donc $t = \frac{-\ln(2)}{-0,162}$, ce qui donne environ **4,27 années**.
+On obtient donc $t = \frac{-\ln(2)}{-0,162}$, ce qui donne environ 4,27 années.
 
 La conclusion est sans appel : tous les 4 ans et 3 mois environ, la voiture voit sa valeur divisée par 2 ! Au bout de 4 ans, notre voiture de 20 000 € n'en vaut plus que 10 000 €. Au bout de 8 ans et demi, elle n'en vaudra plus que 5 000 €. 
 
